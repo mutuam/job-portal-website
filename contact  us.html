@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job portal website</title>
+    <!--custom css file link-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--header section starts-->
+<header class="header">
+  <section class="flex">
+        <div id="menu-btn"  class="fas fa-bars-staggered"></div>
+        <a href="#home" class="logo"><i   class="fas fa-briefcase"></i>JobHunt.</a>
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="about.html">about us</a>
+            <a href="all jobs.html">all jobs</a>
+            <a href="contact  us.html">Contact us</a>
+            <a href="account.html">account</a>
+        </nav>
+        <a href="#"  class="btn" style="margin-top:0;">post Job</a>
+    </section>
+</header>
+<!--header section ends-->
+
+
+<!--contact us section starts-->
+
+ <div class="section-title">Contact Us</div>
+ <section class="contact">
+     <div class="box-container">
+         <div class="box">
+             <i class="fas fa-phone"></i>
+             <a href="tel:1234567">123-456-7</a>
+         </div>
+                  <div class="box">   
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:christopher.mutuawambua@gmail.com">chris.mutu@gmail.com</a>
+                        </div>
+                
+                        <div class="box">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <a href="#">Flat No 1, A-1 Building</a>
+                        </div>
+                  </div>
+             </div>
+
+
+
+ <form action=""  method="post">
+    <div class="flex">
+        
+        <div class="box">
+            <h3>Drop your message</h3>
+            <p>name <span>*</span></p>
+            <input type="text" name="name"  required   maxlength="20"  class="input" placeholder="enter your name">
+        </div>
+
+        <div class="box">
+            <p>email <span>*</span></p>
+            <input type="email" name="email"  required   maxlength="50"  class="input" placeholder="enter your email">
+        </div>
+
+        <div class="box">
+            <p>number <span>*</span></p>
+            <input type="number" name="number"  required min="0" max="99999999" maxlength="20"  class="input" placeholder="enter your number">
+        </div>
+
+        <div class="box">
+            <p>role <span>*</span></p>
+            <select name="role"  required class="input">
+                <option value="employee">job seeker (employee)</option>
+                <option value="employeer">job provider (employeer)</option>
+            </select>
+        </div>
+    </div>
+    <p>message <span>*</span></p>
+    <textarea name="message" class="input" required  maxlength="1000" placeholder="enter your message"    cols="30" rows="10"></textarea>
+    <input type="submit" value="send message"   name="send"  class="btn">
+ </form>
+</section>
+<!--contact us section ends-->
+
+
+
+
+
+<!--footer section starts-->
+<footer class="footer">
+    <section class="grid">
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="index.html"><i class="fas fa-angle-right"></i>home</a>
+            <a href="about.html"><i class="fas fa-angle-right"></i>about</a>
+            <a href="all jobs.html"><i class="fas fa-angle-right"></i>all jobs</a>
+            <a href="contact  us.html"><i class="fas fa-angle-right"></i>contact us</a>
+            <a href="#"><i class="fas fa-angle-right"></i>filter search</a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+          <a href="#"><i class="fas fa-angle-right"></i>account</a>
+          <a href="#login"><i class="fas fa-angle-right"></i>login</a>
+          <a href="#register"><i class="fas fa-angle-right"></i>register</a>
+          <a href="#"><i class="fas fa-angle-right"></i>post jobs</a>
+          <a href="#"><i class="fas fa-angle-right"></i>dashboard</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#"><i class="fab fa-facebook-f"></i>facebook</a>
+            <a href="#"><i class="fab fa-twitter"></i>twitter</a>
+            <a href="#"><i class="fab fa-instagram"></i>instagram</a>
+            <a href="#"><i class="fab fa-linkedin"></i>linkedin</a>
+            <a href="#"><i class="fab fa-youtube"></i>youtube</a>
+        </div>
+    </section>
+    <div class="credit">copyright @ 2023 by  <span>christopher the developer</span>| all rights reserved</div>
+ </footer>
+ <script src="javascript/index.js"></script>
+</body>
+</html>
